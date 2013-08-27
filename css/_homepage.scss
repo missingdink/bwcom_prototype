@@ -3,6 +3,7 @@ header {
 	nav {
 		ul {
 			display: inline;
+			margin-top: 30px;
 			li {
 				float: left;
 				padding: 0 10px;
@@ -20,21 +21,26 @@ header {
 
 .intro {
 	padding: 60px 30px;
-	background-image: url('http://lorempixel.com/1920/600/abstract');
+	background-image: url('http://lorempixel.com/1920/600/technics');
 	background-position: center; 
 	background-repeat: repeat;
 	width: 100%;
 	height: 600px;
-	background-color: #ccc; 
-	.intro-title {
-		font-size: 45px;
-		text-transform: uppercase;
-		color: white !important;
-		text-shadow: black;
-	}
-	.sub-title {
-		font-size: 24px;
-		color: white !important;
+	background-color: #ccc;
+	.intro-content {
+		background-color: #000;
+
+		.intro-title {
+			font-size: 45px;
+			text-transform: uppercase;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
+		.sub-title {
+			font-size: 24px;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
 	}
 }
 
