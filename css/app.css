@@ -5820,6 +5820,13 @@ header {
     list-style: none;
     display: inline-block; }
 
+.individual-person {
+  padding: 40px 0; }
+
+.person-extra {
+  background-color: #eee;
+  padding: 100px 0; }
+
 body .top-bar {
   background-color: white; }
 
