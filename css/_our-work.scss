@@ -1,9 +1,30 @@
 .work-box {
-	padding: 20px;
-	margin-top: 100px;
-	margin-bottom: 100px;
+	padding: 100px 0;
 }
 
 .work-button {
 	margin-top: 20px;
+}
+
+.two {
+	background-color: cornsilk;
+}
+
+.three {
+	background-color: #eee;
+}
+
+.client-list {
+	.client {
+		ul {
+			display: block;
+			li {
+				list-style: none;
+				display: inline-block;
+				
+				a {
+				}
+			}
+		}
+	}
 }

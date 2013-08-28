@@ -5692,7 +5692,7 @@ header {
 
 .intro {
   padding: 60px 30px;
-  background-image: url("http://lorempixel.com/1920/600/technics");
+  background-image: url("http://lorempixel.com/1920/600/abstract");
   background-position: center;
   background-repeat: repeat;
   width: 100%;
@@ -5784,13 +5784,41 @@ header {
       display: inline-block;
       float: left; }
 
+.people {
+  margin-top: 50px; }
+  .people .person {
+    text-align: center;
+    padding: 40px 20px; }
+
+.culture, .values {
+  background-color: cornsilk;
+  padding: 100px;
+  text-align: center; }
+
+.culture-images, .values-images {
+  text-align: center;
+  padding: 40px 0; }
+
+.values {
+  background-color: #eee; }
+
 .work-box {
-  padding: 20px;
-  margin-top: 100px;
-  margin-bottom: 100px; }
+  padding: 100px 0; }
 
 .work-button {
   margin-top: 20px; }
+
+.two {
+  background-color: cornsilk; }
+
+.three {
+  background-color: #eee; }
+
+.client-list .client ul {
+  display: block; }
+  .client-list .client ul li {
+    list-style: none;
+    display: inline-block; }
 
 body .top-bar {
   background-color: white; }
