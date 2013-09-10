@@ -5917,8 +5917,13 @@ header {
   font-size: 30px;
   text-transform: uppercase; }
 
-.speaking-meetup-content .speaking-list-item li {
+.community-speaking-list .speaking-list-item {
   padding: 10px 0; }
+  .community-speaking-list .speaking-list-item h3 {
+    margin: 10px 0; }
+  .community-speaking-list .speaking-list-item h4 {
+    margin: 0;
+    color: #808080; }
 
 .work-box {
   padding: 100px 0; }
