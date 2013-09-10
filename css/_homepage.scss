@@ -21,7 +21,7 @@ header {
 
 .intro {
 	padding: 60px 30px;
-	background-image: url('http://lorempixel.com/1920/600/abstract');
+	background-image: url('http://lorempixel.com/g/1920/600/abstract');
 	background-position: center; 
 	background-repeat: repeat;
 	width: 100%;
@@ -48,6 +48,14 @@ header {
 	padding: 100px;
 }
 
+.info-box {
+	h2 {
+		font-size: 36px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+}
 .box-2 {
 	padding: 100px 0;
 	background-color: #ddd;

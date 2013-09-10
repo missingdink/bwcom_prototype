@@ -5692,7 +5692,7 @@ header {
 
 .intro {
   padding: 60px 30px;
-  background-image: url("http://lorempixel.com/1920/600/abstract");
+  background-image: url("http://lorempixel.com/g/1920/600/abstract");
   background-position: center;
   background-repeat: repeat;
   width: 100%;
@@ -5712,6 +5712,11 @@ header {
 
 .home-box-content {
   padding: 100px; }
+
+.info-box h2 {
+  font-size: 36px; }
+.info-box h4 {
+  font-size: 20px; }
 
 .box-2 {
   padding: 100px 0;
@@ -5824,6 +5829,97 @@ header {
   text-align: center;
   padding: 40px 0; }
 
+.intro-who-we-are {
+  padding: 60px 30px;
+  background-image: url("http://lorempixel.com/g/1920/400/abstract");
+  background-position: center;
+  background-repeat: repeat;
+  width: 100%;
+  height: 400px;
+  background-color: #ccc; }
+  .intro-who-we-are .intro-content {
+    background-color: #000; }
+    .intro-who-we-are .intro-content .intro-title {
+      font-size: 45px;
+      text-transform: uppercase;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+    .intro-who-we-are .intro-content .sub-title {
+      font-size: 24px;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+
+.info-box-who-we-are {
+  background-color: #eee; }
+  .info-box-who-we-are h2 {
+    font-size: 36px; }
+  .info-box-who-we-are h4 {
+    font-size: 20px; }
+
+.intro-community {
+  padding: 60px 30px;
+  background-image: url("http://lorempixel.com/g/1920/400/abstract");
+  background-position: center;
+  background-repeat: repeat;
+  width: 100%;
+  height: 400px;
+  background-color: #ccc; }
+  .intro-community .intro-content {
+    background-color: #000; }
+    .intro-community .intro-content .intro-title {
+      font-size: 45px;
+      text-transform: uppercase;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+    .intro-community .intro-content .sub-title {
+      font-size: 24px;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+
+.current-events {
+  background-color: #fff;
+  padding: 20px; }
+  .current-events a.date-content {
+    display: block;
+    position: relative; }
+    .current-events a.date-content h2 {
+      font-size: 100px;
+      margin: 0;
+      color: black; }
+      .current-events a.date-content h2:hover {
+        color: red; }
+
+.blog-oss-content {
+  background-color: #eee;
+  padding: 75px 10px; }
+  .blog-oss-content .community-blog, .blog-oss-content .community-oss {
+    padding: 0 20px; }
+  .blog-oss-content .community-blog-list, .blog-oss-content .community-oss-list {
+    padding: 0 20px; }
+    .blog-oss-content .community-blog-list h3, .blog-oss-content .community-oss-list h3 {
+      margin: 0;
+      font-size: 20px;
+      padding: 3px 0 8px 0; }
+    .blog-oss-content .community-blog-list h4, .blog-oss-content .community-oss-list h4 {
+      font-size: 16px;
+      color: gray !important; }
+    .blog-oss-content .community-blog-list li, .blog-oss-content .community-oss-list li {
+      padding: 15px 0; }
+
+.speaking-meetup-content {
+  background-color: #ddd;
+  padding: 75px 0; }
+
+.press-content {
+  padding: 75px 0; }
+
+.community-blog-title, .OSS-title, .speaking-title, .meetup-title, .press-title {
+  font-size: 30px;
+  text-transform: uppercase; }
+
+.speaking-meetup-content .speaking-list-item li {
+  padding: 10px 0; }
+
 .work-box {
   padding: 100px 0; }
 
@@ -5862,6 +5958,32 @@ header {
   background-color: #eee;
   padding: 100px 0; }
 
+.intro-who-we-are-deep {
+  padding: 60px 30px;
+  background-image: url("http://lorempixel.com/g/1920/400/abstract");
+  background-position: center;
+  background-repeat: repeat;
+  width: 100%;
+  height: 400px;
+  background-color: #ccc; }
+  .intro-who-we-are-deep .intro-content {
+    background-color: #000; }
+    .intro-who-we-are-deep .intro-content .intro-title {
+      font-size: 45px;
+      text-transform: uppercase;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+    .intro-who-we-are-deep .intro-content .sub-title {
+      font-size: 24px;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+
+.social-media {
+  margin-top: 20px;
+  list-style-type: none; }
+  .social-media li {
+    padding: 5px 0; }
+
 body .top-bar {
   background-color: white; }
 
@@ -5876,3 +5998,6 @@ h3 {
 
 h4 {
   font-size: 14px; }
+
+li {
+  list-style-type: none; }

@@ -20,3 +20,37 @@
 	padding: 40px 0;
 }
 
+.intro-who-we-are {
+	padding: 60px 30px;
+	background-image: url('http://lorempixel.com/g/1920/400/abstract');
+	background-position: center; 
+	background-repeat: repeat;
+	width: 100%;
+	height: 400px;
+	background-color: #ccc;
+	.intro-content {
+		background-color: #000;
+
+		.intro-title {
+			font-size: 45px;
+			text-transform: uppercase;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
+		.sub-title {
+			font-size: 24px;
+			color: white !important;
+			text-shadow: 0 0 0.2em #000;
+		}
+	}
+}
+
+.info-box-who-we-are {
+	background-color: #eee; 
+	h2 {
+		font-size: 36px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+}
