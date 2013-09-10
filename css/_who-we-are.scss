@@ -7,9 +7,12 @@
 }
 
 .culture, .values {
-	background-color: cornsilk;
+	background-color: #333;
 	padding: 100px;
 	text-align: center;
+	h2 {
+		color: white;
+	}
 }
 
 .culture-images, .values-images {
@@ -17,6 +20,3 @@
 	padding: 40px 0;
 }
 
-.values {
-	background-color: #eee;
-}

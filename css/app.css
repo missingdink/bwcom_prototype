@@ -5779,6 +5779,19 @@ header {
   .blog-intro button {
     margin-bottom: 20px; }
 
+.previous, .next {
+  text-transform: uppercase;
+  color: #aaa;
+  padding: 10px 0 50px 0; }
+
+.next {
+  text-align: right; }
+  .next:after {
+    content: " >>"; }
+
+.previous:before {
+  content: "<< "; }
+
 .blog-2 .blog-intro {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -5801,16 +5814,15 @@ header {
     padding: 40px 20px; }
 
 .culture, .values {
-  background-color: cornsilk;
+  background-color: #333;
   padding: 100px;
   text-align: center; }
+  .culture h2, .values h2 {
+    color: white; }
 
 .culture-images, .values-images {
   text-align: center;
   padding: 40px 0; }
-
-.values {
-  background-color: #eee; }
 
 .work-box {
   padding: 100px 0; }
@@ -5819,16 +5831,29 @@ header {
   margin-top: 20px; }
 
 .two {
-  background-color: cornsilk; }
+  background-color: #888; }
+  .two img {
+    margin: 0 0 -100px 0; }
 
 .three {
   background-color: #eee; }
+  .three img {
+    margin: 0 0 -100px 0; }
 
-.client-list .client ul {
-  display: block; }
-  .client-list .client ul li {
-    list-style: none;
-    display: inline-block; }
+.client-list {
+  padding: 100px 0;
+  background-color: #333; }
+  .client-list .client .client-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 50px 0;
+    font-size: 24px;
+    color: white; }
+  .client-list .client ul {
+    display: block; }
+    .client-list .client ul li {
+      list-style: none;
+      display: inline-block; }
 
 .individual-person {
   padding: 40px 0; }

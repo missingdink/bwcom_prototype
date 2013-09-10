@@ -40,3 +40,21 @@ header {
 	}
 }
 
+.previous, .next {
+	text-transform: uppercase;
+	color: #aaa;
+	padding: 10px 0 50px 0;
+}
+
+.next {
+	text-align: right;
+	&:after {
+		content:" >>";
+	}
+}
+
+.previous {
+	&:before {
+		content: "<< ";
+	}
+}
