@@ -7,7 +7,7 @@ header {
 			li {
 				float: left;
 				padding: 0 10px;
-				list-style-type: none; 
+				list-style-type: none;
 				a {
 					h3{
 						font-size: 14px;
@@ -75,19 +75,30 @@ header {
 footer {
 	height: 300px;
 	background-color: #ddd; 
-	padding: 20px 0;
+	padding: 70px 0;
 	.footer_nav {
-		ul {
+		ul.title-nav {
 			display: inline;
 			li {
 				float: left;
-				padding: 0 10px;
-				list-style-type: none; 
-				a {
+				padding: 0 25px;
+				list-style-type: none;
+				a.title {
+					font-size: 18px;
+					color: #aaa;
+					text-transform: uppercase;
+					border-bottom: 1px solid #aaa;
 					h3{
-						font-size: 14px;
+						font-size: 18px;
 					}
 
+				}
+				ul.footer-sub-nav {
+					display: block;
+					li {
+						float: none;
+						padding: 5px 0;
+					}
 				}
 			}
 		}
