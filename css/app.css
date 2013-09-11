@@ -5856,6 +5856,26 @@ header {
   .info-box-who-we-are h4 {
     font-size: 20px; }
 
+.intro-careers {
+  padding: 60px 30px;
+  background-image: url("http://lorempixel.com/g/1920/400/abstract");
+  background-position: center;
+  background-repeat: repeat;
+  width: 100%;
+  height: 400px;
+  background-color: #ccc; }
+  .intro-careers .intro-content {
+    background-color: #000; }
+    .intro-careers .intro-content .intro-title {
+      font-size: 45px;
+      text-transform: uppercase;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+    .intro-careers .intro-content .sub-title {
+      font-size: 24px;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+
 .intro-community {
   padding: 60px 30px;
   background-image: url("http://lorempixel.com/g/1920/400/abstract");
@@ -5912,18 +5932,32 @@ header {
 
 .press-content {
   padding: 75px 0; }
+  .press-content .press {
+    padding: 0 100px; }
+    .press-content .press .press-link h3 {
+      font-size: 20px; }
+    .press-content .press .press-link h4 {
+      margin-bottom: 35px;
+      color: gray !important;
+      font-weight: normal;
+      font-size: 16px; }
 
-.community-blog-title, .OSS-title, .speaking-title, .meetup-title, .press-title {
-  font-size: 30px;
-  text-transform: uppercase; }
+.community-blog-title, .oss-title, .speaking-title, .meetup-title, .press-title {
+  text-transform: uppercase;
+  margin: 10px 0; }
+  .community-blog-title h2, .oss-title h2, .speaking-title h2, .meetup-title h2, .press-title h2 {
+    font-size: 30px !important; }
 
-.community-speaking-list .speaking-list-item {
-  padding: 10px 0; }
-  .community-speaking-list .speaking-list-item h3 {
-    margin: 10px 0; }
-  .community-speaking-list .speaking-list-item h4 {
-    margin: 0;
-    color: #808080; }
+.community-speaking-list {
+  padding: 0 20px; }
+  .community-speaking-list .speaking-list-item {
+    padding: 10px 0; }
+    .community-speaking-list .speaking-list-item h3 {
+      margin: 10px 0; }
+    .community-speaking-list .speaking-list-item h4 {
+      margin: 0;
+      color: #808080;
+      font-weight: normal; }
 
 .work-box {
   padding: 100px 0; }

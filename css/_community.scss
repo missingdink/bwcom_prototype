@@ -71,14 +71,33 @@
 
 .press-content {
 	padding: 75px 0;
+	.press {
+		padding: 0 100px;
+		.press-link {
+			h3 {
+				font-size: 20px;
+			}
+			h4 {
+				margin-bottom: 35px;
+				color: #808080 !important;
+				font-weight: normal;
+				font-size: 16px;
+			}
+		}
+	}
 }
 
-.community-blog-title, .OSS-title, .speaking-title, .meetup-title, .press-title {
-	font-size: 30px;
+.community-blog-title, .oss-title, .speaking-title, .meetup-title, .press-title {
 	text-transform: uppercase;
+	margin: 10px 0;
+	  
+	h2 {
+		font-size: 30px !important;
+	}
 }
 
 .community-speaking-list {
+	padding: 0 20px;
 	.speaking-list-item {
 		padding: 10px 0;
 		h3 {
@@ -87,6 +106,7 @@
 		h4 {
 			margin: 0;
 			color: #808080;
+			font-weight: normal;
 		}
 	}
 }
