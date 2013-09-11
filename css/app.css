@@ -6071,6 +6071,26 @@ header {
       color: white !important;
       text-shadow: 0 0 0.2em black; }
 
+.our-values {
+  padding: 75px 0; }
+  .our-values .value-item {
+    margin: 25px 0 55px 0; }
+    .our-values .value-item .value-title {
+      font-size: 36px; }
+
+.services {
+  background-color: #222;
+  padding: 75px 0; }
+  .services h2, .services h3 {
+    color: white; }
+  .services h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 30px; }
+  .services h3 {
+    font-weight: normal;
+    margin: 10px 0; }
+
 body .top-bar {
   background-color: white; }
 
