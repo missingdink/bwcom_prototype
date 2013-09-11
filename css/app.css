@@ -5831,7 +5831,7 @@ header {
 
 .intro-who-we-are {
   padding: 60px 30px;
-  background-image: url("http://lorempixel.com/g/1920/400/abstract");
+  background-image: url("http://lorempixel.com/g/1920/400/people");
   background-position: center;
   background-repeat: repeat;
   width: 100%;
@@ -5901,9 +5901,8 @@ header {
   background-color: #444; }
   .careers-content-box-1 .careers-content-1 h2 {
     color: white !important; }
-  .careers-content-box-1 .careers-content-1 h4 {
-    color: white !important;
-    font-weight: normal; }
+  .careers-content-box-1 .careers-content-1 p {
+    color: white; }
 
 .intro-community {
   padding: 60px 30px;
@@ -6051,6 +6050,26 @@ header {
   list-style-type: none; }
   .social-media li {
     padding: 5px 0; }
+
+.intro-how-we-work {
+  padding: 60px 30px;
+  background-image: url("http://lorempixel.com/g/1920/400/abstract");
+  background-position: center;
+  background-repeat: repeat;
+  width: 100%;
+  height: 400px;
+  background-color: #ccc; }
+  .intro-how-we-work .intro-content {
+    background-color: #000; }
+    .intro-how-we-work .intro-content .intro-title {
+      font-size: 45px;
+      text-transform: uppercase;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
+    .intro-how-we-work .intro-content .sub-title {
+      font-size: 24px;
+      color: white !important;
+      text-shadow: 0 0 0.2em black; }
 
 body .top-bar {
   background-color: white; }
