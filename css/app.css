@@ -5876,6 +5876,35 @@ header {
       color: white !important;
       text-shadow: 0 0 0.2em black; }
 
+.offices {
+  padding: 70px 0; }
+  .offices h2 {
+    font-size: 30px !important;
+    text-transform: uppercase; }
+  .offices h3 {
+    font-size: 24px !important;
+    text-transform: uppercase; }
+
+.careers-content-box-1, .careers-content-box-2 {
+  padding: 70px 0; }
+
+.career-pictures {
+  background-color: #222;
+  padding: 70px 0; }
+  .career-pictures h2 {
+    color: white;
+    text-transform: uppercase; }
+  .career-pictures img {
+    margin: 20px 0; }
+
+.careers-content-box-1 {
+  background-color: #444; }
+  .careers-content-box-1 .careers-content-1 h2 {
+    color: white !important; }
+  .careers-content-box-1 .careers-content-1 h4 {
+    color: white !important;
+    font-weight: normal; }
+
 .intro-community {
   padding: 60px 30px;
   background-image: url("http://lorempixel.com/g/1920/400/abstract");
