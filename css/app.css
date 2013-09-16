@@ -5679,16 +5679,34 @@ table {
   border-spacing: 0; }
 
 header {
-  background-color: white !important; }
-  header nav ul {
-    display: inline;
-    margin-top: 30px; }
-    header nav ul li {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999; }
+  header .mics-thing {
+    background-color: white;
+    position: relative;
+    z-index: 9999;
+    overflow: hidden;
+    width: 62.5em; }
+    header .mics-thing .nav-logo {
       float: left;
-      padding: 0 10px;
-      list-style-type: none; }
-      header nav ul li a h3 {
-        font-size: 14px; }
+      position: relative; }
+    header .mics-thing nav {
+      float: right;
+      position: relative;
+      width: 70%; }
+      header .mics-thing nav ul {
+        display: inline;
+        margin-top: 30px; }
+        header .mics-thing nav ul li {
+          float: left;
+          padding: 0 10px;
+          list-style-type: none; }
+          header .mics-thing nav ul li a h3 {
+            font-size: 14px; }
 
 .intro {
   padding: 60px 30px;
@@ -5713,29 +5731,43 @@ header {
 .home-box-content {
   padding: 100px; }
 
-.info-box h2 {
-  font-size: 36px; }
-.info-box h4 {
-  font-size: 20px; }
+.info-box {
+  margin-top: 600px;
+  z-index: 10;
+  background-color: cornsilk;
+  position: relative; }
+  .info-box h2 {
+    font-size: 36px; }
+  .info-box h4 {
+    font-size: 20px; }
 
 .box-2 {
   padding: 100px 0;
-  background-color: #ddd; }
+  background-color: #ddd;
+  position: relative;
+  z-index: 10; }
   .box-2 img {
     padding: 10px; }
 
 .box-3 {
-  padding: 100px 0; }
+  padding: 100px 0;
+  position: relative;
+  background-color: white;
+  z-index: 10; }
   .box-3 img {
     padding: 10px; }
 
 .box-4 {
   padding: 100px 0;
-  background-color: #aaa; }
+  background-color: #aaa;
+  position: relative;
+  z-index: 10; }
   .box-4 img {
     padding: 10px; }
 
 footer {
+  position: relative;
+  z-index: 10;
   height: 300px;
   background-color: #ddd;
   padding: 70px 0; }
@@ -5757,6 +5789,12 @@ footer {
         footer .footer_nav ul.title-nav li ul.footer-sub-nav li {
           float: none;
           padding: 5px 0; }
+
+.home-hero-image {
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  top: 100px; }
 
 header {
   background-color: white !important; }
