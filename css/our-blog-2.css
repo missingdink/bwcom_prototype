@@ -1,0 +1,17 @@
+.blog-2 .blog-intro {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #eeeeee; }
+  .blog-2 .blog-intro .blog-entry {
+    text-align: left;
+    padding: 30px 30px 0px 30px;
+    vertical-align: middle; }
+    .blog-2 .blog-intro .blog-entry img {
+      display: block;
+      float: left; }
+    .blog-2 .blog-intro .blog-entry .blog-title {
+      display: inline-block;
+      float: left; }
+
+.blog-stuffs {
+  margin-top: 100px; }

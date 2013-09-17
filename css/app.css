@@ -6141,6 +6141,9 @@ header {
     font-weight: normal;
     margin: 10px 0; }
 
+.blog-deep-body {
+  padding-top: 150px; }
+
 body .top-bar {
   background-color: white; }
 
